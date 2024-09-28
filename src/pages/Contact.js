@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+
 import { Link } from 'react-router-dom';
+import ContactFooter from '../components/layout/ContactFooter';
+import CopyrightFooter from '../components/layout/CopyrightFooter';
 
 export default function Contact() {
+   // Scroll to the top when the component mounts
+ useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
   return (
     <> 
     
@@ -25,9 +32,10 @@ export default function Contact() {
           <div className="content_wrap clearfix">
             {/* Logo */}
             <div className="logo">
-              <a href="index-2.html">
-                <img src="assets/images/logo_dark.png" className="logo_main" alt />
-                <img src="assets/images/logo_dark.png" className="logo_fixed" alt />
+              <a href="/">
+              <img src="assets/images/white-bg.png" className="logo_main" alt style={{ width: '250px', height: 'auto', }} />
+               <img src="assets/images/white-bg.png" className="logo_fixed" alt style={{ width: '230px', height: 'auto' }} />
+
               </a>
             </div>
             {/* Logo */}
@@ -51,14 +59,14 @@ export default function Contact() {
             <a href="#" className="menu_main_responsive_button icon-menu-1" />
             <nav className="menu_main_nav_area">
               <ul id="menu_main" className="menu_main_nav">
-                <li className="menu-item menu-item-has-children"><Link to="/">Home</Link>
+                <li className="menu-item  "><Link to="/">Home</Link>
                   
                 </li>
                 
-                <li className="menu-item menu-item-has-children"><Link to="/Courses">Courses</Link>
+                <li className="menu-item  "><Link to="/Courses">Courses</Link>
                   
                 </li>
-                <li className="menu-item menu-item-has-children"><Link to="/TeachersTeam">Teachers</Link>
+                <li className="menu-item  "><Link to="/TeachersTeam">Teachers</Link>
                    
                 </li>
                 <li className="menu-item"><Link to="/About">About Us</Link></li>
@@ -170,61 +178,8 @@ export default function Contact() {
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.4843630509713!2d-122.42343108422764!3d37.77868707975869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580999d2acfb3%3A0x687352ddeebecb93!2z0KHQsNC9LdCk0YDQsNC90YbQuNGB0LrQviwg0JrQsNC70LjRhNC-0YDQvdC40Y8gOTQxMDIsINCh0KjQkA!5e0!3m2!1sru!2sua!4v1557919959053!5m2!1sru!2sua" width={1920} height={450} frameBorder={0} style={{border: 0}} allowFullScreen />
       </div>
       {/* /Google map */}
-      {/* Contacts Footer  */}
-      <footer className="contacts_wrap bg_tint_dark contacts_style_dark">
-        <div className="content_wrap">
-          <div className="logo">
-            <a href="index-2.html">
-              <img src="assets/images/logo_footer.png" alt />
-            </a>
-          </div>
-          <div className="contacts_address">
-            <address className="address_right">
-              Phone: <a href="tel:+18001234567">1.800.123.4567</a><br />
-              Fax: <a href="tel:+18001234566">1.800.123.4566</a>
-            </address>
-            <address className="address_left">
-              San Francisco, CA 94102, US<br />	
-              1234 Some St
-            </address>
-          </div>
-          <div className="sc_socials sc_socials_size_big">
-            <div className="sc_socials_item">
-              <a href="https://business.facebook.com/ThemeRexStudio/" target="_blank" className="social_icons social_facebook">
-                <span className="sc_socials_hover social_facebook" />
-              </a>
-            </div>
-            <div className="sc_socials_item">
-              <a href="https://www.pinterest.com/themerex0063" target="_blank" className="social_icons social_pinterest">
-                <span className="sc_socials_hover social_pinterest" />
-              </a>
-            </div>
-            <div className="sc_socials_item">
-              <a href="https://twitter.com/ThemeREX_net" target="_blank" className="social_icons social_twitter">
-                <span className="sc_socials_hover social_twitter" />
-              </a>
-            </div>
-            <div className="sc_socials_item">
-              <a href="#" target="_blank" className="social_icons social_rss">
-                <span className="sc_socials_hover social_rss" />
-              </a>
-            </div>
-            <div className="sc_socials_item">
-              <a href="https://dribbble.com/AncoraThemes" target="_blank" className="social_icons social_dribbble">
-                <span className="sc_socials_hover social_dribbble" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
-      {/* /Contacts Footer  */}
-      {/* Copyright */}
-      <div className="copyright_wrap">
-        <div className="content_wrap">
-          <p>© 2019 All Rights Reserved. <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a></p>
-        </div>
-      </div>
-      {/* /Copyright */}
+       <ContactFooter/>
+       <CopyrightFooter/>
     </div>
   </div>
   {/* /Body */}

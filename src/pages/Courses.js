@@ -1,7 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+
 import { Link } from 'react-router-dom';
+import Partners from '../components/layout/Partners';
+import CalendarFooter from '../components/layout/CalendarFooter';
+import ContactFooter from '../components/layout/ContactFooter';
+import CopyrightFooter from '../components/layout/CopyrightFooter';
 
 export default function Courses() {
+   // Scroll to the top when the component mounts
+ useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
   return (
     <> 
    <div className="page body_style_wide body_filled article_style_boxed layout_courses_3 template_portfolio top_panel_style_light top_panel_opacity_solid top_panel_above menu_right sidebar_hide">
@@ -24,9 +33,10 @@ export default function Courses() {
           <div className="content_wrap clearfix">
             {/* Logo */}
             <div className="logo">
-              <a href="index-2.html">
-                <img src="assets/images/logo_light.png" className="logo_main" alt />
-                <img src="assets/images/logo_light.png" className="logo_fixed" alt />
+              <a href="/">
+              <img src="assets/images/white-bg.png" className="logo_main" alt style={{ width: '250px', height: 'auto', }} />
+               <img src="assets/images/white-bg.png" className="logo_fixed" alt style={{ width: '230px', height: 'auto' }} />
+
               </a>
             </div>
             {/* Logo */}
@@ -50,15 +60,15 @@ export default function Courses() {
             <a href="#" className="menu_main_responsive_button icon-menu-1" />
             <nav className="menu_main_nav_area">
               <ul id="menu_main" className="menu_main_nav">
-                <li className="menu-item menu-item-has-children"><Link to="/">Home</Link>
+                <li className="menu-item  "><Link to="/">Home</Link>
                   
                 </li>
                
                 
-                <li className="menu-item menu-item-has-children current-menu-ancestor current-menu-parent"><Link to="/Courses">Courses</Link>
+                <li className="menu-item   current-menu-ancestor current-menu-parent"><Link to="/Courses">Courses</Link>
                   
                 </li>
-                <li className="menu-item menu-item-has-children"><Link to="/TeachersTeam">Teachers</Link>
+                <li className="menu-item  "><Link to="/TeachersTeam">Teachers</Link>
                   
                 </li>
                 <li className="menu-item"><Link to="/About">About Us</Link></li>
@@ -429,299 +439,11 @@ export default function Courses() {
         </div>
       </div>
       {/* /Content */}
-      {/* Partners footer */}
-      <footer className="user_footer_wrap">
-        <div className="sc_section margin_bottom_1_imp sc_footer_custom_bg1">
-          <div className="sc_section_overlay">
-            <div className="sc_section_content">
-              <div className="sc_content content_wrap">
-                <div className="sc_section aligncenter width_70per">
-                  <h2 className="sc_title sc_title_regular margin_top_05em">Schools &amp; Partners</h2> 
-                  We believe in offering the highest quality courses, created by schools and partners who share our commitment to excellence in teaching and learning, both online and in the classroom.
-                </div>
-                <div id="sc_section_2" className="sc_section margin_top_1_5em_imp margin_bottom_075em_imp height_75">
-                  <div id="sc_section_2_scroll" className="sc_scroll sc_scroll_horizontal swiper-slider-container scroll-container height_75">
-                    <div className="sc_scroll_wrapper swiper-wrapper">
-                      <div className="sc_scroll_slide swiper-slide">
-                        <figure className="sc_image alignleft sc_image_shape_square margin_right_0_imp">
-                          <img src="assets/images/partners_01.jpg" alt />
-                        </figure>
-                        <figure className="sc_image alignleft sc_image_shape_square margin_right_0_imp margin_left_4em_imp">
-                          <img src="assets/images/partners_02.jpg" alt />
-                        </figure>
-                        <figure className="sc_image alignleft sc_image_shape_square margin_right_0_imp margin_left_4em_imp">
-                          <img src="assets/images/partners_03.jpg" alt />
-                        </figure>
-                        <figure className="sc_image alignleft sc_image_shape_square margin_right_0_imp margin_left_4em_imp">
-                          <img src="assets/images/partners_04.jpg" alt />
-                        </figure>
-                        <figure className="sc_image alignleft sc_image_shape_square margin_right_0_imp margin_left_4em_imp">
-                          <img src="assets/images/partners_05.jpg" alt />
-                        </figure>
-                        <figure className="sc_image alignleft sc_image_shape_square margin_right_0_imp margin_left_4em_imp">
-                          <img src="assets/images/partners_06.jpg" alt />
-                        </figure>
-                      </div>
-                    </div>
-                    <div id="sc_section_2_scroll_bar" className="sc_scroll_bar sc_scroll_bar_horizontal sc_section_2_scroll_bar" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>	
-      {/* /Partners footer */}
-      {/* Widgets Footer */}
-      <footer className="footer_wrap bg_tint_light footer_style_light widget_area">
-        <div className="content_wrap">
-          <div className="columns_wrap">
-            {/* Calendar widget */}
-            <aside className="column-1_3 widget widget_calendar">
-              <h5 className="widget_title">Calendar</h5>
-              <table>
-                <thead>
-                  <tr>
-                    <th className="month_prev">
-                      <a href="#" data-type="post,courses,tribe_events" data-year={2019} data-month={1} title="View posts for January 2019" />
-                    </th>
-                    <th className="month_cur" colSpan={5}>September <span>2019</span></th>
-                    <th className="month_next">
-                      <a href="#" data-month={10} data-year={2019} data-type="post,courses,tribe_events" title="View posts for October 2019" />
-                    </th>
-                  </tr>
-                  <tr>
-                    <th className="weekday" scope="col" title="Monday">Mon</th>
-                    <th className="weekday" scope="col" title="Tuesday">Tue</th>
-                    <th className="weekday" scope="col" title="Wednesday">Wed</th>
-                    <th className="weekday" scope="col" title="Thursday">Thu</th>
-                    <th className="weekday" scope="col" title="Friday">Fri</th>
-                    <th className="weekday" scope="col" title="Saturday">Sat</th>
-                    <th className="weekday" scope="col" title="Sunday">Sun</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td colSpan={1} className="pad"><span className="day_wrap">&nbsp;</span></td>
-                    <td className="day"><span className="day_wrap">1</span></td>
-                    <td className="day"><span className="day_wrap">2</span></td>
-                    <td className="day"><span className="day_wrap">3</span></td>
-                    <td className="day"><span className="day_wrap">4</span></td>
-                    <td className="day"><span className="day_wrap">5</span></td>
-                    <td className="day"><span className="day_wrap">6</span></td>
-                  </tr>
-                  <tr>
-                    <td className="day"><span className="day_wrap">7</span></td>
-                    <td className="day"><span className="day_wrap">8</span></td>
-                    <td className="day"><span className="day_wrap">9</span></td>
-                    <td className="day"><a className="day_wrap" title="Post" href="#">10</a></td>
-                    <td className="day"><span className="day_wrap">11</span></td>
-                    <td className="day"><span className="day_wrap">12</span></td>
-                    <td className="day"><span className="day_wrap">13</span></td>
-                  </tr>
-                  <tr>
-                    <td className="day"><span className="day_wrap">14</span></td>
-                    <td className="day"><span className="day_wrap">15</span></td>
-                    <td className="day"><span className="day_wrap">16</span></td>
-                    <td className="day"><span className="day_wrap">17</span></td>
-                    <td className="day"><a className="day_wrap" title="Post" href="#">18</a></td>
-                    <td className="day"><span className="day_wrap">19</span></td>
-                    <td className="day"><span className="day_wrap">20</span></td>
-                  </tr>
-                  <tr>
-                    <td className="today"><span className="day_wrap">21</span></td>
-                    <td className="day"><span className="day_wrap">22</span></td>
-                    <td className="day"><span className="day_wrap">23</span></td>
-                    <td className="day"><span className="day_wrap">24</span></td>
-                    <td className="day"><span className="day_wrap">25</span></td>
-                    <td className="day"><span className="day_wrap">26</span></td>
-                    <td className="day"><span className="day_wrap">27</span></td>
-                  </tr>
-                  <tr>
-                    <td className="day"><span className="day_wrap">28</span></td>
-                    <td className="day"><span className="day_wrap">29</span></td>
-                    <td className="day"><span className="day_wrap">30</span></td>
-                    <td className="pad" colSpan={4}><span className="day_wrap">&nbsp;</span></td>
-                  </tr>
-                </tbody>
-              </table>
-            </aside>
-            {/* /Calendar widget */}
-            {/* Recent posts widget */}
-            <aside className="column-1_3 widget">
-              <h5 className="widget_title">Recent Posts</h5>
-              <article className="post_item first">
-                <div className="post_thumb">
-                  <img alt="Medical Chemistry: The Molecular Basis" src="assets/images/masonry_01-75x75.jpg" />
-                </div>
-                <div className="post_content">
-                  <h6 className="post_title">
-                    <a href="post-with-sidebar.html">Medical Chemistry: The Molecular Basis</a>
-                  </h6>
-                  <div className="post_info">
-                    <span className="post_info_item post_info_posted">
-                      <a href="#" className="post_info_date">January 14, 2019</a>
-                    </span>
-                    <span className="post_info_item post_info_posted_by">by 
-                      <a href="#" className="post_info_author">John Doe</a>
-                    </span>
-                    <span className="post_info_item post_info_counters">
-                      <a href="#" className="post_counters_item post_counters_views icon-eye"><span>157</span></a>
-                    </span>
-                  </div>
-                </div>
-              </article>
-              <article className="post_item">
-                <div className="post_thumb">
-                  <img alt="Introduction to Computer  Science" src="assets/images/masonry_02-75x75.jpg" />
-                </div>
-                <div className="post_content">
-                  <h6 className="post_title">
-                    <a href="post-without-sidebar.html">Introduction to Computer  Science</a>
-                  </h6>
-                  <div className="post_info">
-                    <span className="post_info_item post_info_posted">
-                      <a href="#" className="post_info_date">January 14, 2019</a>
-                    </span>
-                    <span className="post_info_item post_info_posted_by">by 
-                      <a href="#" className="post_info_author">John Doe</a>
-                    </span>
-                    <span className="post_info_item post_info_counters">
-                      <a href="#" className="post_counters_item post_counters_views icon-eye"><span>103</span>
-                      </a>
-                    </span>
-                  </div>
-                </div>
-              </article>
-              <article className="post_item ">
-                <div className="post_thumb">
-                  <img alt="Introduction to Biomedical Imaging" src="assets/images/masonry_03-75x75.jpg" />
-                </div>
-                <div className="post_content">
-                  <h6 className="post_title">
-                    <a href="post-without-sidebar.html">Introduction to Biomedical Imaging</a>
-                  </h6>
-                  <div className="post_info">
-                    <span className="post_info_item post_info_posted">
-                      <a href="#" className="post_info_date">January 13, 2019</a>
-                    </span>
-                    <span className="post_info_item post_info_posted_by">by 
-                      <a href="#" className="post_info_author">John Doe</a>
-                    </span>
-                    <span className="post_info_item post_info_counters">
-                      <a href="#" className="post_counters_item post_counters_views icon-eye"><span>80</span></a>
-                    </span>
-                  </div>
-                </div>
-              </article>
-              <article className="post_item">
-                <div className="post_thumb">
-                  <img alt="Evaluating Social Programs" src="assets/images/masonry_04-75x75.jpg" /></div>
-                <div className="post_content">
-                  <h6 className="post_title">
-                    <a href="post-without-sidebar.html">Evaluating Social Programs</a>
-                  </h6>
-                  <div className="post_info">
-                    <span className="post_info_item post_info_posted">
-                      <a href="#" className="post_info_date">January 13, 2019</a>
-                    </span>
-                    <span className="post_info_item post_info_posted_by">by 
-                      <a href="#" className="post_info_author">John Doe</a>
-                    </span>
-                    <span className="post_info_item post_info_counters">
-                      <a href="#" className="post_counters_item post_counters_views icon-eye"><span>77</span></a>
-                    </span>
-                  </div>
-                </div>
-              </article>
-            </aside>
-            {/* /Recent posts widget */}
-            {/* Recent comments widget */}
-            <aside className="column-1_3 widget widget_recent_comments">
-              <h5 className="widget_title">Latest comments</h5>
-              <ul>
-                <li>
-                  <span>TRX_admin</span> on 
-                  <a href="product-page.html">Star Print Backpack</a>
-                </li>
-                <li>
-                  <span>TRX_admin</span> on 
-                  <a href="product-page.html">Yellow Backpack</a>
-                </li>
-                <li>
-                  <span>Sebastian Jones</span> on 
-                  <a href="product-page.html">Principles of Written English, Part 2</a>
-                </li>
-                <li>
-                  <span>TRX_admin</span> on 
-                  <a href="product-page.html">Principles of Written English, Part 2</a>
-                </li>
-                <li>
-                  <span>TRX_admin</span> on 
-                  <a href="product-page.html">Video Training for Microsoft products and technologies</a>
-                </li>
-              </ul>
-            </aside>
-            {/* /Recent comments widget */}
-          </div>
-        </div>
-      </footer>
-      {/* /Widgets Footer */}			
-      {/* Contacts Footer  */}
-      <footer className="contacts_wrap bg_tint_dark contacts_style_dark">
-        <div className="content_wrap">
-          <div className="logo">
-            <a href="index-2.html">
-              <img src="assets/images/logo_footer.png" alt />
-            </a>
-          </div>
-          <div className="contacts_address">
-            <address className="address_right">
-              Phone: <a href="tel:+18001234567">1.800.123.4567</a><br />
-              Fax: <a href="tel:+18001234566">1.800.123.4566</a>
-            </address>
-            <address className="address_left">
-              San Francisco, CA 94102, US<br />	
-              1234 Some St
-            </address>
-          </div>
-          <div className="sc_socials sc_socials_size_big">
-            <div className="sc_socials_item">
-              <a href="https://business.facebook.com/ThemeRexStudio/" target="_blank" className="social_icons social_facebook">
-                <span className="sc_socials_hover social_facebook" />
-              </a>
-            </div>
-            <div className="sc_socials_item">
-              <a href="https://www.pinterest.com/themerex0063" target="_blank" className="social_icons social_pinterest">
-                <span className="sc_socials_hover social_pinterest" />
-              </a>
-            </div>
-            <div className="sc_socials_item">
-              <a href="https://twitter.com/ThemeREX_net" target="_blank" className="social_icons social_twitter">
-                <span className="sc_socials_hover social_twitter" />
-              </a>
-            </div>
-            <div className="sc_socials_item">
-              <a href="#" target="_blank" className="social_icons social_rss">
-                <span className="sc_socials_hover social_rss" />
-              </a>
-            </div>
-            <div className="sc_socials_item">
-              <a href="https://dribbble.com/AncoraThemes" target="_blank" className="social_icons social_dribbble">
-                <span className="sc_socials_hover social_dribbble" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
-      {/* /Contacts Footer */}
-      {/* Copyright */}
-      <div className="copyright_wrap">
-        <div className="content_wrap">
-          <p>© 2019 All Rights Reserved. <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a></p>
-        </div>
-      </div>
-      {/* /Copyright */}
+      <Partners/>
+       
+       <CalendarFooter/>		
+       <ContactFooter/>
+       <CopyrightFooter/>
     </div>
   </div>
   {/* /Body */}

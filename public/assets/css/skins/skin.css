@@ -631,7 +631,7 @@ input[type="checkbox"]:checked + label:before {
 .top_panel_over.top_panel_opacity_transparent .menu_main_wrap .content_wrap {
 	position:relative;
 }
-.top_panel_over.top_panel_opacity_transparent .menu_main_wrap .content_wrap:after {
+/* .top_panel_over.top_panel_opacity_transparent .menu_main_wrap .content_wrap:after {
 	content:' ';
 	display:block;
 	width:100%;
@@ -640,7 +640,7 @@ input[type="checkbox"]:checked + label:before {
 	left:0;
 	right:0;
 	top:7.25em;
-}
+} */
 .top_panel_over.top_panel_opacity_transparent.menu_relayout .menu_main_wrap .content_wrap:after {
 	top:5em;
 }
