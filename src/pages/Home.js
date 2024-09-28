@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import CopyrightFooter from '../layout/CopyrightFooter';
-import ContactFooter from '../layout/ContactFooter';
-import TestimonialsFooter from '../layout/TestimonialsFooter';
-import CalendarFooter from '../layout/CalendarFooter';
-import Pricing from '../layout/Pricing';
-import VideoTraining from '../layout/VideoTraining';
-import Partners from '../layout/Partners';
-import CoursesSoon from '../layout/CoursesSoon';
+import CopyrightFooter from '../components/layout/CopyrightFooter';
+import ContactFooter from '../components/layout/ContactFooter';
+import TestimonialsFooter from '../components/layout/TestimonialsFooter';
+import CalendarFooter from '../components/layout/CalendarFooter';
+import Pricing from '../components/layout/Pricing';
+import VideoTraining from '../components/layout/VideoTraining';
+import Partners from '../components/layout/Partners';
+import CoursesSoon from '../components/layout/CoursesSoon';
 
 
 export default function Home() {
