@@ -131,42 +131,43 @@ export default function Contact() {
               </div>
               {/* /Features section */}
               {/* Contact form */}
-              <div className="sc_section bg_tint_dark sc_contact_bg_img">
-                <div className="sc_section_overlay sc_contact_bg_color" data-overlay="0.8" data-bg_color="#024b5e">
-                  <div className="sc_section_content">
-                    <div className="sc_content content_wrap margin_top_3em_imp margin_bottom_3_5em_imp">
-                      <div id="sc_contact_form" className="sc_contact_form sc_contact_form_standard aligncenter width_80per">
-                        <h2 className="sc_contact_form_title">Contact Us Today</h2>
-                        <p className="sc_contact_form_description">Your email address will not be published. Required fields are marked *</p>
-                        <form id="sc_contact_form_1" data-formtype="contact" method="post" action="#">
-                          <div className="sc_contact_form_info">
-                            <div className="sc_contact_form_item sc_contact_form_field label_over">
-                              <label className="required" htmlFor="sc_contact_form_username">Name</label>
-                              <input id="sc_contact_form_username" type="text" name="username" placeholder="Name *" />
-                            </div>
-                            <div className="sc_contact_form_item sc_contact_form_field label_over">
-                              <label className="required" htmlFor="sc_contact_form_email">E-mail</label>
-                              <input id="sc_contact_form_email" type="text" name="email" placeholder="E-mail *" />
-                            </div>
-                            <div className="sc_contact_form_item sc_contact_form_field label_over">
-                              <label className="required" htmlFor="sc_contact_form_subj">Subject</label>
-                              <input id="sc_contact_form_subj" type="text" name="subject" placeholder="Subject" />
-                            </div>
-                          </div>
-                          <div className="sc_contact_form_item sc_contact_form_message label_over">
-                            <label className="required" htmlFor="sc_contact_form_message">Message</label>
-                            <textarea id="sc_contact_form_message" name="message" placeholder="Message" defaultValue={""} />
-                          </div>
-                          <div className="sc_contact_form_item sc_contact_form_button">
-                            <button>SEND MESSAGE</button>
-                          </div>
-                          <div className="result sc_infobox" />
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+             <div className="sc_section bg_tint_dark sc_contact_bg_img">
+  <div className="sc_section_overlay sc_contact_bg_color" data-overlay="0.8" data-bg_color="#024b5e">
+    <div className="sc_section_content">
+      <div className="sc_content content_wrap margin_top_3em_imp margin_bottom_3_5em_imp">
+        <div id="sc_contact_form" className="sc_contact_form sc_contact_form_standard aligncenter width_80per">
+          <h2 className="sc_contact_form_title">Contact Us Today</h2>
+          <p className="sc_contact_form_description">Your email address will not be published. Required fields are marked *</p>
+          <form id="sc_contact_form_1" data-formtype="contact" method="post" action="#" className="inited">
+            <div className="sc_contact_form_info">
+              <div className="sc_contact_form_item sc_contact_form_field label_over">
+                <label className="required" htmlFor="sc_contact_form_username">Name</label>
+                <input id="sc_contact_form_username" type="text" name="username" placeholder="Name *" className />
               </div>
+              <div className="sc_contact_form_item sc_contact_form_field label_over">
+                <label className="required" htmlFor="sc_contact_form_email">E-mail</label>
+                <input id="sc_contact_form_email" type="text" name="email" placeholder="E-mail *" className autoComplete="off" />
+              </div>
+              <div className="sc_contact_form_item sc_contact_form_field label_over">
+                <label className="required" htmlFor="sc_contact_form_subj">Subject</label>
+                <input id="sc_contact_form_subj" type="text" name="subject" placeholder="Subject" className />
+              </div>
+            </div>
+            <div className="sc_contact_form_item sc_contact_form_message label_over">
+              <label className="required" htmlFor="sc_contact_form_message">Message</label>
+              <textarea id="sc_contact_form_message" name="message" placeholder="Message" className defaultValue={""} />
+            </div>
+            <div className="sc_contact_form_item sc_contact_form_button">
+              <button>SEND MESSAGE</button>
+            </div>
+            <div className="result sc_infobox sc_infobox_style_success" style={{display: 'none'}}>Send message complete!</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
               {/* /Contact form */}
             </section>
           </article>
