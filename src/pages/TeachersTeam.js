@@ -86,7 +86,7 @@ export default function TeachersTeam() {
       <div className="page_top_wrap page_top_title page_top_breadcrumbs">
         <div className="content_wrap">
           <div className="breadcrumbs">
-            <a className="breadcrumbs_item home" href="index-2.html">Home</a>
+            <a className="breadcrumbs_item home" href="/">Home</a>
             <span className="breadcrumbs_delimiter" />
             <span className="breadcrumbs_item current">Team Members</span> 
           </div>
@@ -114,17 +114,17 @@ export default function TeachersTeam() {
                           </blockquote>
                           <div className="sc_socials sc_socials_size_small">
                             <div className="sc_socials_item">
-                              <a href="https://business.facebook.com/ThemeRexStudio/" target="_blank" className="social_icons social_facebook">
+                              <a href="#" target="_blank" className="social_icons social_facebook">
                                 <span className="sc_socials_hover social_facebook" />
                               </a>
                             </div>
                             <div className="sc_socials_item">
-                              <a href="https://www.pinterest.com/themerex0063" target="_blank" className="social_icons social_pinterest">
+                              <a href="#" target="_blank" className="social_icons social_pinterest">
                                 <span className="sc_socials_hover social_pinterest" />
                               </a>
                             </div>
                             <div className="sc_socials_item">
-                              <a href="https://twitter.com/ThemeREX_net" target="_blank" className="social_icons social_twitter">
+                              <a href="#" target="_blank" className="social_icons social_twitter">
                                 <span className="sc_socials_hover social_twitter" />
                               </a>
                             </div>
@@ -134,7 +134,7 @@ export default function TeachersTeam() {
                               </a>
                             </div>
                             <div className="sc_socials_item">
-                              <a href="https://dribbble.com/AncoraThemes" target="_blank" className="social_icons social_dribbble">
+                              <a href="#" target="_blank" className="social_icons social_dribbble">
                                 <span className="sc_socials_hover social_dribbble" />
                               </a>
                             </div>

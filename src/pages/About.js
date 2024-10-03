@@ -87,7 +87,7 @@ export default function About() {
       <div className="page_top_wrap page_top_title page_top_breadcrumbs sc_pt_st1">
         <div className="content_wrap">
           <div className="breadcrumbs">
-            <a className="breadcrumbs_item home" href="index-2.html">Home</a>
+            <a className="breadcrumbs_item home" href="/">Home</a>
             <span className="breadcrumbs_delimiter" />
             <span className="breadcrumbs_item current">About Us</span>
           </div>

@@ -22,17 +22,17 @@ export default function OurTeachers() {
                             </div>
                             <div className="sc_socials sc_socials_size_small">
                               <div className="sc_socials_item">
-                                <a href="https://business.facebook.com/ThemeRexStudio/" target="_blank" className="social_icons social_facebook">
+                                <a href="#" target="_blank" className="social_icons social_facebook">
                                   <span className="sc_socials_hover social_facebook" />
                                 </a>
                               </div>
                               <div className="sc_socials_item">
-                                <a href="https://www.pinterest.com/themerex0063" target="_blank" className="social_icons social_pinterest">
+                                <a href="#" target="_blank" className="social_icons social_pinterest">
                                   <span className="sc_socials_hover social_pinterest" />
                                 </a>
                               </div>
                               <div className="sc_socials_item">
-                                <a href="https://twitter.com/ThemeREX_net" target="_blank" className="social_icons social_twitter">
+                                <a href="#" target="_blank" className="social_icons social_twitter">
                                   <span className="sc_socials_hover social_twitter" />
                                 </a>
                               </div>
@@ -46,7 +46,7 @@ export default function OurTeachers() {
                             <img alt src="assets/images/john_snow_full-350x290.jpg" /></div>
                           <div className="sc_team_item_info">
                             <h6 className="sc_team_item_title">
-                              <a href="personal-page.html">John Snow</a>
+                              <a href="#">John Snow</a>
                             </h6>
                             <div className="sc_team_item_position">Translator</div>
                             <div className="sc_team_item_description">
@@ -56,22 +56,22 @@ export default function OurTeachers() {
                             </div>
                             <div className="sc_socials sc_socials_size_small">
                               <div className="sc_socials_item">
-                                <a href="https://business.facebook.com/ThemeRexStudio/" target="_blank" className="social_icons social_facebook">
+                                <a href="#" target="_blank" className="social_icons social_facebook">
                                   <span className="sc_socials_hover social_facebook" />
                                 </a>
                               </div>
                               <div className="sc_socials_item">
-                                <a href="https://www.pinterest.com/themerex0063" target="_blank" className="social_icons social_pinterest">
+                                <a href="#" target="_blank" className="social_icons social_pinterest">
                                   <span className="sc_socials_hover social_pinterest" />
                                 </a>
                               </div>
                               <div className="sc_socials_item">
-                                <a href="https://twitter.com/ThemeREX_net" target="_blank" className="social_icons social_twitter">
+                                <a href="#" target="_blank" className="social_icons social_twitter">
                                   <span className="sc_socials_hover social_twitter" />
                                 </a>
                               </div>
                               <div className="sc_socials_item">
-                                <a href="https://dribbble.com/AncoraThemes" target="_blank" className="social_icons social_dribbble">
+                                <a href="#" target="_blank" className="social_icons social_dribbble">
                                   <span className="sc_socials_hover social_dribbble" />
                                 </a>
                               </div>
@@ -85,7 +85,7 @@ export default function OurTeachers() {
                             <img alt src="assets/images/pamela_fryman_full-350x290.jpg" /></div>
                           <div className="sc_team_item_info">
                             <h6 className="sc_team_item_title">
-                              <a href="personal-page.html">Pamela Fryman</a>
+                              <a href="#">Pamela Fryman</a>
                             </h6>
                             <div className="sc_team_item_position">Translator</div>
                             <div className="sc_team_item_description">
@@ -93,22 +93,22 @@ export default function OurTeachers() {
                             </div>
                             <div className="sc_socials sc_socials_size_small">
                               <div className="sc_socials_item">
-                                <a href="https://business.facebook.com/ThemeRexStudio/" target="_blank" className="social_icons social_facebook">
+                                <a href="#" target="_blank" className="social_icons social_facebook">
                                   <span className="sc_socials_hover social_facebook" />
                                 </a>
                               </div>
                               <div className="sc_socials_item">
-                                <a href="https://www.pinterest.com/themerex0063" target="_blank" className="social_icons social_pinterest">
+                                <a href="#" target="_blank" className="social_icons social_pinterest">
                                   <span className="sc_socials_hover social_pinterest" />
                                 </a>
                               </div>
                               <div className="sc_socials_item">
-                                <a href="https://twitter.com/ThemeREX_net" target="_blank" className="social_icons social_twitter">
+                                <a href="#" target="_blank" className="social_icons social_twitter">
                                   <span className="sc_socials_hover social_twitter" />
                                 </a>
                               </div>
                               <div className="sc_socials_item">
-                                <a href="https://dribbble.com/AncoraThemes" target="_blank" className="social_icons social_dribbble">
+                                <a href="#" target="_blank" className="social_icons social_dribbble">
                                   <span className="sc_socials_hover social_dribbble" />
                                 </a>
                               </div>
@@ -130,22 +130,22 @@ export default function OurTeachers() {
                               <div className="sc_team_item_socials">
                                 <div className="sc_socials sc_socials_size_small">
                                   <div className="sc_socials_item">
-                                    <a href="https://business.facebook.com/ThemeRexStudio/" target="_blank" className="social_icons social_facebook">
+                                    <a href="#" target="_blank" className="social_icons social_facebook">
                                       <span className="sc_socials_hover social_facebook" />
                                     </a>
                                   </div>
                                   <div className="sc_socials_item">
-                                    <a href="https://www.pinterest.com/themerex0063" target="_blank" className="social_icons social_pinterest">
+                                    <a href="#" target="_blank" className="social_icons social_pinterest">
                                       <span className="sc_socials_hover social_pinterest" />
                                     </a>
                                   </div>
                                   <div className="sc_socials_item">
-                                    <a href="https://twitter.com/ThemeREX_net" target="_blank" className="social_icons social_twitter">
+                                    <a href="#" target="_blank" className="social_icons social_twitter">
                                       <span className="sc_socials_hover social_twitter" />
                                     </a>
                                   </div>
                                   <div className="sc_socials_item">
-                                    <a href="https://dribbble.com/AncoraThemes" target="_blank" className="social_icons social_dribbble">
+                                    <a href="#" target="_blank" className="social_icons social_dribbble">
                                       <span className="sc_socials_hover social_dribbble" />
                                     </a>
                                   </div>
@@ -167,17 +167,17 @@ export default function OurTeachers() {
                               <div className="sc_team_item_socials">
                                 <div className="sc_socials sc_socials_size_small">
                                   <div className="sc_socials_item">
-                                    <a href="https://business.facebook.com/ThemeRexStudio/" target="_blank" className="social_icons social_facebook">
+                                    <a href="#" target="_blank" className="social_icons social_facebook">
                                       <span className="sc_socials_hover social_facebook" />
                                     </a>
                                   </div>
                                   <div className="sc_socials_item">
-                                    <a href="https://www.pinterest.com/themerex0063" target="_blank" className="social_icons social_pinterest">
+                                    <a href="#" target="_blank" className="social_icons social_pinterest">
                                       <span className="sc_socials_hover social_pinterest" />
                                     </a>
                                   </div>
                                   <div className="sc_socials_item">
-                                    <a href="https://twitter.com/ThemeREX_net" target="_blank" className="social_icons social_twitter">
+                                    <a href="#" target="_blank" className="social_icons social_twitter">
                                       <span className="sc_socials_hover social_twitter" />
                                     </a>
                                   </div>
@@ -199,22 +199,22 @@ export default function OurTeachers() {
                               <div className="sc_team_item_socials">
                                 <div className="sc_socials sc_socials_size_small">
                                   <div className="sc_socials_item">
-                                    <a href="https://business.facebook.com/ThemeRexStudio/" target="_blank" className="social_icons social_facebook">
+                                    <a href="#" target="_blank" className="social_icons social_facebook">
                                       <span className="sc_socials_hover social_facebook" />
                                     </a>
                                   </div>
                                   <div className="sc_socials_item">
-                                    <a href="https://www.pinterest.com/themerex0063" target="_blank" className="social_icons social_pinterest">
+                                    <a href="#" target="_blank" className="social_icons social_pinterest">
                                       <span className="sc_socials_hover social_pinterest" />
                                     </a>
                                   </div>
                                   <div className="sc_socials_item">
-                                    <a href="https://twitter.com/ThemeREX_net" target="_blank" className="social_icons social_twitter">
+                                    <a href="#" target="_blank" className="social_icons social_twitter">
                                       <span className="sc_socials_hover social_twitter" />
                                     </a>
                                   </div>
                                   <div className="sc_socials_item">
-                                    <a href="https://dribbble.com/AncoraThemes" target="_blank" className="social_icons social_dribbble">
+                                    <a href="#" target="_blank" className="social_icons social_dribbble">
                                       <span className="sc_socials_hover social_dribbble" />
                                     </a>
                                   </div>

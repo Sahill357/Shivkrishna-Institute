@@ -105,7 +105,7 @@ export default function CoursesSoon() {
                             <div className="post_item post_item_courses odd">
                               <div className="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
                                 <div className="post_featured img">
-                                  <a href="free-course.html">
+                                  <a href="#">
                                     <img alt="Evaluating Social  Programs" src="assets/images/masonry_04-400x400.jpg" />
                                   </a>
                                   <h4 className="post_title">
@@ -123,7 +123,7 @@ export default function CoursesSoon() {
                                 <div className="post_info_wrap info">
                                   <div className="info-back">
                                     <h4 className="post_title">
-                                      <a href="free-course.html">Evaluating Social  Programs</a>
+                                      <a href="#">Evaluating Social  Programs</a>
                                     </h4>
                                     <div className="post_descr">
                                       <p>
@@ -131,7 +131,7 @@ export default function CoursesSoon() {
                                       </p>
                                       <div className="post_buttons">
                                         <div className="post_button">
-                                          <a href="free-course.html" className="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+                                          <a href="#" className="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
                                         </div>
                                       </div>
                                     </div>

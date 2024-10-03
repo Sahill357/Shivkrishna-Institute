@@ -227,17 +227,17 @@ export default function CalendarFooter() {
                 </div>
                 <div className="post_content">
                   <h6 className="post_title">
-                    <a href="free-course.html">Evaluating Social  Programs</a>
+                    <a href="#">Evaluating Social  Programs</a>
                   </h6>
                   <div className="post_info">
                     <span className="post_info_item post_info_posted">
-                      <a href="free-course.html" className="post_info_date">January 1, 2019</a>
+                      <a href="#" className="post_info_date">January 1, 2019</a>
                     </span>
                     <span className="post_info_item post_info_posted_by">by 
                       <a href="#" className="post_info_author">John Doe</a>
                     </span>
                     <span className="post_info_item post_info_counters">
-                      <a href="free-course.html" className="post_counters_item post_counters_views icon-eye">
+                      <a href="#" className="post_counters_item post_counters_views icon-eye">
                         <span className="post_counters_number">1154</span>
                       </a>
                     </span>
