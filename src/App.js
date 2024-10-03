@@ -6,14 +6,11 @@ import Contact from './pages/Contact';
 import Courses from './pages/Courses';
 import TeachersTeam from './pages/TeachersTeam';
  
-// import Header from './components/Header'; // Import the reusable Header component
 
 function App() {
   return (
     <Router>
       <div className="App">
-        {/* Add the Header outside Routes so it's displayed on all pages */}
-        {/* <Header />  */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

@@ -59,19 +59,19 @@ export default function Contact() {
             <a href="#" className="menu_main_responsive_button icon-menu-1" />
             <nav className="menu_main_nav_area">
               <ul id="menu_main" className="menu_main_nav">
-                <li className="menu-item  "><Link to="/">Home</Link>
+                <li className="menu-item  "><a href="/">Home</a>
                   
                 </li>
                 
-                <li className="menu-item  "><Link to="/Courses">Courses</Link>
+                <li className="menu-item  "><a href="/Courses">Courses</a>
                   
                 </li>
-                <li className="menu-item  "><Link to="/TeachersTeam">Teachers</Link>
+                <li className="menu-item  "><a href="/TeachersTeam">Teachers</a>
                    
                 </li>
-                <li className="menu-item"><Link to="/About">About Us</Link></li>
+                <li className="menu-item"><a href="/About">About Us</a></li>
                 <li className="menu-item current-menu-item page_item current_page_item">
-                <Link to="/Contact">Contact Us</Link>
+                <a href="/Contact">Contact Us</a>
                 </li>
                    
               </ul>

@@ -232,7 +232,7 @@ export default function OurTeachers() {
                       </div>
                     </div>
                   </div>
-                  <a href="courses-streampage.html" data-animation="animated fadeInUp normal" className="sc_button sc_button_square sc_button_style_filled sc_button_bg_menu sc_button_size_small aligncenter  sc_button_iconed icon-graduation margin_top_0 sc_button_courses_st1 margin_bottom_4 widht_12em">VIEW ALL COURSES</a>
+                  <a href="#" data-animation="animated fadeInUp normal" className="sc_button sc_button_square sc_button_style_filled sc_button_bg_menu sc_button_size_small aligncenter  sc_button_iconed icon-graduation margin_top_0 sc_button_courses_st1 margin_bottom_4 widht_12em">VIEW ALL COURSES</a>
                 </div>
               </div>
     </ >

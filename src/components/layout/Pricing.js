@@ -20,7 +20,7 @@ export default function Pricing() {
                               <span className="sc_highlight font_2_57em lh_1em"><b>Free!</b> 30 Days</span>
                             </div>
                             <div className="sc_price_block_link">
-                              <a href="product-page.html" className="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">I WANT THIS PLAN</a>
+                              <a href="#" className="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">I WANT THIS PLAN</a>
                             </div>
                           </div>
                         </div>
@@ -35,7 +35,7 @@ export default function Pricing() {
                                 <br /> plan by paying yearly.</p>
                             </div>
                             <div className="sc_price_block_link">
-                              <a href="product-page.html" className="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">I WANT THIS PLAN</a>
+                              <a href="#" className="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">I WANT THIS PLAN</a>
                             </div>
                           </div>
                         </div>
@@ -53,7 +53,7 @@ export default function Pricing() {
                                 <br /> plan by paying biannually.</p>
                             </div>
                             <div className="sc_price_block_link">
-                              <a href="product-page.html" className="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">I WANT THIS PLAN</a>
+                              <a href="#" className="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">I WANT THIS PLAN</a>
                             </div>
                           </div>
                         </div>

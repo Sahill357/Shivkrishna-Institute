@@ -60,19 +60,19 @@ export default function Courses() {
             <a href="#" className="menu_main_responsive_button icon-menu-1" />
             <nav className="menu_main_nav_area">
               <ul id="menu_main" className="menu_main_nav">
-                <li className="menu-item  "><Link to="/">Home</Link>
+                <li className="menu-item  "><a href="/">Home</a>
                   
                 </li>
                
                 
-                <li className="menu-item   current-menu-ancestor current-menu-parent"><Link to="/Courses">Courses</Link>
+                <li className="menu-item   current-menu-ancestor current-menu-parent"><a href="/Courses">Courses</a>
                   
                 </li>
-                <li className="menu-item  "><Link to="/TeachersTeam">Teachers</Link>
+                <li className="menu-item  "><a href="/TeachersTeam">Teachers</a>
                   
                 </li>
-                <li className="menu-item"><Link to="/About">About Us</Link></li>
-                <li className="menu-item"><Link to="/Contact">Contact Us</Link></li>
+                <li className="menu-item"><a href="/About">About Us</a></li>
+                <li className="menu-item"><a href="/Contact">Contact Us</a></li>
               </ul>
             </nav>
             {/* /Navigation */}
@@ -84,7 +84,7 @@ export default function Courses() {
       <div className="page_top_wrap page_top_title page_top_breadcrumbs sc_pt_st1">
         <div className="content_wrap">
           <div className="breadcrumbs">
-            <a className="breadcrumbs_item home" href="index-2.html">Home</a>
+            <Link to="/" className="breadcrumbs_item home" >Home</Link>
             <span className="breadcrumbs_delimiter" />
             <span className="breadcrumbs_item current">All courses</span> 
           </div>

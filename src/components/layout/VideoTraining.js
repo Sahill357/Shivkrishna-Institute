@@ -14,7 +14,7 @@ export default function VideoTraining() {
                         Our Video Training for Microsoft products and technologies
                       </h3>
                       <p>Mauris vitae quam ligula. In tincidunt sapien sed nibh scelerisque congue. Maecenas ut libero eu metus tincidunt lobortis. Duis accumsan at mauris vel lacinia.</p>
-                      <a href="courses-streampage.html" className="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_mini sc_button_iconed inherit margin_top_1em margin_bottom_4 margin_left_4">BROWSE COURSES</a>
+                      <a href="#" className="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_mini sc_button_iconed inherit margin_top_1em margin_bottom_4 margin_left_4">BROWSE COURSES</a>
                     </div>
                     <div className="column-1_2 sc_column_item sc_column_item_2 even res_width_100per_imp">
                       <div className="sc_video_player sc_video_bordered sc_video_st1">

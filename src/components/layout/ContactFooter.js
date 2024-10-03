@@ -7,7 +7,7 @@ export default function ContactFooter() {
     <footer className="contacts_wrap bg_tint_dark contacts_style_dark">
         <div className="content_wrap">
           <div className="logo">
-            <a href="index-2.html">
+            <a href="#">
             <img src="assets/images/white-bg.png" className="logo_main" alt style={{ width: '250px', height: 'auto', }} />
             </a>
           </div>
@@ -23,17 +23,17 @@ export default function ContactFooter() {
           </div>
           <div className="sc_socials sc_socials_size_big">
             <div className="sc_socials_item">
-              <a href="https://business.facebook.com/ThemeRexStudio/" target="_blank" className="social_icons social_facebook">
+              <a href="#" target="_blank" className="social_icons social_facebook">
                 <span className="sc_socials_hover social_facebook" />
               </a>
             </div>
             <div className="sc_socials_item">
-              <a href="https://www.pinterest.com/themerex0063" target="_blank" className="social_icons social_pinterest">
+              <a href="#" target="_blank" className="social_icons social_pinterest">
                 <span className="sc_socials_hover social_pinterest" />
               </a>
             </div>
             <div className="sc_socials_item">
-              <a href="https://twitter.com/ThemeREX_net" target="_blank" className="social_icons social_twitter">
+              <a href="#" target="_blank" className="social_icons social_twitter">
                 <span className="sc_socials_hover social_twitter" />
               </a>
             </div>
@@ -43,7 +43,7 @@ export default function ContactFooter() {
               </a>
             </div>
             <div className="sc_socials_item">
-              <a href="https://dribbble.com/AncoraThemes" target="_blank" className="social_icons social_dribbble">
+              <a href="#" target="_blank" className="social_icons social_dribbble">
                 <span className="sc_socials_hover social_dribbble" />
               </a>
             </div>

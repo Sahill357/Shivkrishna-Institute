@@ -86,15 +86,15 @@ export default function CalendarFooter() {
                   <img alt="Principles of Written English, Part 1" src="assets/images/masonry_05-75x75.jpg" /></div>
                 <div className="post_content">
                   <h6 className="post_title">
-                    <a href="paid-course.html">Principles of Written English, Part 1</a>
+                    <a href="#">Principles of Written English, Part 1</a>
                   </h6>
                   <div className="post_info"><span className="post_info_item post_info_posted">
-                      <a href="paid-course.html" className="post_info_date">December 24, 2018</a></span>
+                      <a href="#" className="post_info_date">December 24, 2018</a></span>
                     <span className="post_info_item post_info_posted_by">by 
                       <a href="#" className="post_info_author">John Doe</a>
                     </span>
                     <span className="post_info_item post_info_counters">
-                      <a href="paid-course.html" className="post_counters_item post_counters_rating icon-star-1">
+                      <a href="#" className="post_counters_item post_counters_rating icon-star-1">
                         <span className="post_counters_number">86.8</span>
                       </a>
                     </span>
@@ -107,17 +107,17 @@ export default function CalendarFooter() {
                 </div>
                 <div className="post_content">
                   <h6 className="post_title">
-                    <a href="paid-course.html">Medical Chemistry: The  Molecular Basis...</a>
+                    <a href="#">Medical Chemistry: The  Molecular Basis...</a>
                   </h6>
                   <div className="post_info">
                     <span className="post_info_item post_info_posted">
-                      <a href="paid-course.html" className="post_info_date">March 8, 2019</a>
+                      <a href="#" className="post_info_date">March 8, 2019</a>
                     </span>
                     <span className="post_info_item post_info_posted_by">by 
                       <a href="#" className="post_info_author">John Doe</a>
                     </span>
                     <span className="post_info_item post_info_counters">
-                      <a href="paid-course.html" className="post_counters_item post_counters_rating icon-star-1">
+                      <a href="#" className="post_counters_item post_counters_rating icon-star-1">
                         <span className="post_counters_number">83.8</span>
                       </a>
                     </span>
@@ -130,17 +130,17 @@ export default function CalendarFooter() {
                 </div>
                 <div className="post_content">
                   <h6 className="post_title">
-                    <a href="paid-course.html">Entrepreneurship 101:  Who is your customer?</a>
+                    <a href="#">Entrepreneurship 101:  Who is your customer?</a>
                   </h6>
                   <div className="post_info">
                     <span className="post_info_item post_info_posted">
-                      <a href="paid-course.html" className="post_info_date">February 27, 2019</a>
+                      <a href="#" className="post_info_date">February 27, 2019</a>
                     </span>
                     <span className="post_info_item post_info_posted_by">by 
                       <a href="#" className="post_info_author">John Doe</a>
                     </span>
                     <span className="post_info_item post_info_counters">
-                      <a href="paid-course.html" className="post_counters_item post_counters_rating icon-star-1">
+                      <a href="#" className="post_counters_item post_counters_rating icon-star-1">
                         <span className="post_counters_number">76.3</span>
                       </a>
                     </span>
@@ -153,17 +153,17 @@ export default function CalendarFooter() {
                 </div>
                 <div className="post_content">
                   <h6 className="post_title">
-                    <a href="paid-course.html">Introduction to Biomedical Imaging</a>
+                    <a href="#">Introduction to Biomedical Imaging</a>
                   </h6>
                   <div className="post_info">
                     <span className="post_info_item post_info_posted">
-                      <a href="paid-course.html" className="post_info_date">January 1, 2016</a>
+                      <a href="#" className="post_info_date">January 1, 2016</a>
                     </span>
                     <span className="post_info_item post_info_posted_by">by 
                       <a href="#" className="post_info_author">John Doe</a>
                     </span>
                     <span className="post_info_item post_info_counters">
-                      <a href="paid-course.html" className="post_counters_item post_counters_rating icon-star-1">
+                      <a href="#" className="post_counters_item post_counters_rating icon-star-1">
                         <span className="post_counters_number">74.8</span>
                       </a>
                     </span>
@@ -181,17 +181,17 @@ export default function CalendarFooter() {
                 </div>
                 <div className="post_content">
                   <h6 className="post_title">
-                    <a href="paid-course.html">Principles of Written English, Part 2</a>
+                    <a href="#">Principles of Written English, Part 2</a>
                   </h6>
                   <div className="post_info">
                     <span className="post_info_item post_info_posted">
-                      <a href="paid-course.html" className="post_info_date">February 10, 2019</a>
+                      <a href="#" className="post_info_date">February 10, 2019</a>
                     </span>
                     <span className="post_info_item post_info_posted_by">by 
                       <a href="#" className="post_info_author">John Doe</a>
                     </span>
                     <span className="post_info_item post_info_counters">
-                      <a href="paid-course.html" className="post_counters_item post_counters_views icon-eye">
+                      <a href="#" className="post_counters_item post_counters_views icon-eye">
                         <span className="post_counters_number">749</span>
                       </a>
                     </span>
@@ -204,17 +204,17 @@ export default function CalendarFooter() {
                 </div>
                 <div className="post_content">
                   <h6 className="post_title">
-                    <a href="paid-course.html">Entrepreneurship 101:  Who is your customer?</a>
+                    <a href="#">Entrepreneurship 101:  Who is your customer?</a>
                   </h6>
                   <div className="post_info">
                     <span className="post_info_item post_info_posted">
-                      <a href="paid-course.html" className="post_info_date">February 27, 2019</a>
+                      <a href="#" className="post_info_date">February 27, 2019</a>
                     </span>
                     <span className="post_info_item post_info_posted_by">by 
                       <a href="#" className="post_info_author">John Doe</a>
                     </span>
                     <span className="post_info_item post_info_counters">
-                      <a href="paid-course.html" className="post_counters_item post_counters_views icon-eye">
+                      <a href="#" className="post_counters_item post_counters_views icon-eye">
                         <span className="post_counters_number">729</span>
                       </a>
                     </span>
@@ -250,17 +250,17 @@ export default function CalendarFooter() {
                 </div>
                 <div className="post_content">
                   <h6 className="post_title">
-                    <a href="paid-course.html">Principles of Written English, Part 1</a>
+                    <a href="#">Principles of Written English, Part 1</a>
                   </h6>
                   <div className="post_info">
                     <span className="post_info_item post_info_posted">
-                      <a href="paid-course.html" className="post_info_date">December 24, 2018</a>
+                      <a href="#" className="post_info_date">December 24, 2018</a>
                     </span>
                     <span className="post_info_item post_info_posted_by">by 
                       <a href="#" className="post_info_author">John Doe</a>
                     </span>
                     <span className="post_info_item post_info_counters">
-                      <a href="paid-course.html" className="post_counters_item post_counters_views icon-eye">
+                      <a href="#" className="post_counters_item post_counters_views icon-eye">
                         <span className="post_counters_number">253</span>
                       </a>
                     </span>
