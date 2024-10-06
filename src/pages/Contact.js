@@ -1,10 +1,55 @@
-import React, { useEffect } from 'react';
+import React, { useState,useEffect } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import { Link } from 'react-router-dom';
 import ContactFooter from '../components/layout/ContactFooter';
 import CopyrightFooter from '../components/layout/CopyrightFooter';
 
 export default function Contact() {
+
+
+  const [formData, setFormData] = useState({
+    username: '',
+    email: '',
+    subject: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
+  };
+
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const { username, email, message } = formData;
+
+    if (!username || !email || !message) {
+      toast.error('Please fill in all required fields');
+      return;
+    }
+
+    if (!validateEmail(email)) {
+      toast.error('Please enter a valid email address');
+      return;
+    }
+
+    setTimeout(() => {
+      toast.success('Your message has been sent successfully!');
+      setFormData({ username: '', email: '', subject: '', message: '' });
+    }, 1000);
+  };
+
+
    // Scroll to the top when the component mounts
  useEffect(() => {
   window.scrollTo(0, 0);
@@ -131,42 +176,73 @@ export default function Contact() {
               </div>
               {/* /Features section */}
               {/* Contact form */}
-             <div className="sc_section bg_tint_dark sc_contact_bg_img">
-  <div className="sc_section_overlay sc_contact_bg_color" data-overlay="0.8" data-bg_color="#024b5e">
-    <div className="sc_section_content">
-      <div className="sc_content content_wrap margin_top_3em_imp margin_bottom_3_5em_imp">
-        <div id="sc_contact_form" className="sc_contact_form sc_contact_form_standard aligncenter width_80per">
-          <h2 className="sc_contact_form_title">Contact Us Today</h2>
-          <p className="sc_contact_form_description">Your email address will not be published. Required fields are marked *</p>
-          <form id="sc_contact_form_1" data-formtype="contact" method="post" action="#" className="inited">
-            <div className="sc_contact_form_info">
-              <div className="sc_contact_form_item sc_contact_form_field label_over">
-                <label className="required" htmlFor="sc_contact_form_username">Name</label>
-                <input id="sc_contact_form_username" type="text" name="username" placeholder="Name *" className />
-              </div>
-              <div className="sc_contact_form_item sc_contact_form_field label_over">
-                <label className="required" htmlFor="sc_contact_form_email">E-mail</label>
-                <input id="sc_contact_form_email" type="text" name="email" placeholder="E-mail *" className autoComplete="off" />
-              </div>
-              <div className="sc_contact_form_item sc_contact_form_field label_over">
-                <label className="required" htmlFor="sc_contact_form_subj">Subject</label>
-                <input id="sc_contact_form_subj" type="text" name="subject" placeholder="Subject" className />
-              </div>
+              <div className="sc_section bg_tint_dark sc_contact_bg_img">
+      {/* Toast Container with bottom-right positioning */}
+      <ToastContainer position="bottom-right" />
+
+      <div className="sc_section_overlay sc_contact_bg_color" data-overlay="0.8" data-bg_color="#024b5e">
+        <div className="sc_section_content">
+          <div className="sc_content content_wrap margin_top_3em_imp margin_bottom_3_5em_imp">
+            <div id="sc_contact_form" className="sc_contact_form sc_contact_form_standard aligncenter width_80per">
+              <h2 className="sc_contact_form_title">Contact Us Today</h2>
+              <p className="sc_contact_form_description">
+                Your email address will not be published. Required fields are marked *
+              </p>
+              <form id="sc_contact_form_1" onSubmit={handleSubmit} className="inited">
+                <div className="sc_contact_form_info">
+                  <div className="sc_contact_form_item sc_contact_form_field label_over">
+                    <label className="required" htmlFor="sc_contact_form_username">Name</label>
+                    <input
+                      id="sc_contact_form_username"
+                      type="text"
+                      name="username"
+                      placeholder="Name *"
+                      value={formData.username}
+                      onChange={handleChange}
+                    />
+                  </div>
+                  <div className="sc_contact_form_item sc_contact_form_field label_over">
+                    <label className="required" htmlFor="sc_contact_form_email">E-mail</label>
+                    <input
+                      id="sc_contact_form_email"
+                      type="email"
+                      name="email"
+                      placeholder="E-mail *"
+                      value={formData.email}
+                      onChange={handleChange}
+                    />
+                  </div>
+                  <div className="sc_contact_form_item sc_contact_form_field label_over">
+                    <label className="required" htmlFor="sc_contact_form_subj">Subject</label>
+                    <input
+                      id="sc_contact_form_subj"
+                      type="text"
+                      name="subject"
+                      placeholder="Subject"
+                      value={formData.subject}
+                      onChange={handleChange}
+                    />
+                  </div>
+                </div>
+                <div className="sc_contact_form_item sc_contact_form_message label_over">
+                  <label className="required" htmlFor="sc_contact_form_message">Message</label>
+                  <textarea
+                    id="sc_contact_form_message"
+                    name="message"
+                    placeholder="Message"
+                    value={formData.message}
+                    onChange={handleChange}
+                  />
+                </div>
+                <div className="sc_contact_form_item sc_contact_form_button">
+                  <button type="submit">SEND MESSAGE</button>
+                </div>
+              </form>
             </div>
-            <div className="sc_contact_form_item sc_contact_form_message label_over">
-              <label className="required" htmlFor="sc_contact_form_message">Message</label>
-              <textarea id="sc_contact_form_message" name="message" placeholder="Message" className defaultValue={""} />
-            </div>
-            <div className="sc_contact_form_item sc_contact_form_button">
-              <button>SEND MESSAGE</button>
-            </div>
-            <div className="result sc_infobox sc_infobox_style_success" style={{display: 'none'}}>Send message complete!</div>
-          </form>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
               {/* /Contact form */}
             </section>
